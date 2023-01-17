@@ -1,7 +1,7 @@
 // Write a function that prints (console.log) the numbers from 1 to 100. But log “Fizz” instead of the number if it is divisible by 3, “Buzz” if the number is divisible by 5, and “FizzBuzz” if the number is divisible by both 3 and 5.
 
 function printFizz() {
-    for (let i = 0; i <= 100; i++)
+    for (let i = 1; i <= 100; i++)
         switch (true) {
             case i % 15 === 0:
                 console.log("FizzBuzz")
